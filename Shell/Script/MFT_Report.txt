@@ -1,0 +1,8 @@
+open sftp://shell_prd:S%24H%2FE%24L%23L%25_pwd@mft-prd.cathaypacific.com/to-SZ/ -hostkey="ssh-rsa 2048 Tq+CIkvKZyEzf2xdXnhnsHFPetvtD5l0LO1AknlLrnM="
+# Force binary mode transfer
+option transfer binary
+# Download file to the local directory c:\
+synchronize local c:\AsiaMile\Shell\Report\
+# Disconnect
+close
+exit
